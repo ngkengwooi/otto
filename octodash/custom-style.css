@@ -1,0 +1,19 @@
+td:has(> img.main-menu__option-icon__2) {
+        display: none !important;
+}
+
+div.printer-status__row {
+        display: none !important;
+}
+
+div.control__tools {
+        display: none !important;
+}
+
+div.control__jog-arrows--vertical__wrapper:has(> .control__icon-7) {
+        display: none !important;
+}
+
+div.control__jog-arrows--vertical__wrapper:has(> .control__icon-7) + span.control__heading {
+        display: none !important;
+}
