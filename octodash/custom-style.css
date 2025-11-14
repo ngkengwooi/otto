@@ -1,14 +1,14 @@
-// Remove filament icon from main menu
+/* Remove filament icon from main menu */
 td:has(> img.main-menu__option-icon__2) {
         display: none !important;
 }
 
-// Remove status panel across middle of main page
+/* Remove status panel across middle of main page */
 div.printer-status__row {
         display: none !important;
 }
 
-// Remove nozzle, heatbead and extruder controls from the control page
+/* Remove nozzle, heatbead and extruder controls from the control page */
 div.control__tools {
         display: none !important;
 }
