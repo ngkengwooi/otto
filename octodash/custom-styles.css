@@ -20,3 +20,16 @@ div.control__jog-arrows--vertical__wrapper:has(> .control__icon-7) {
 div.control__jog-arrows--vertical__wrapper:has(> .control__icon-7) + span.control__heading {
         display: none !important;
 }
+
+span.main-menu__heading {
+        visibility: hidden !important;
+        position: relative !important;
+}
+
+span.main-menu__heading:after {
+        content: 'OttoTouch';
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+}
